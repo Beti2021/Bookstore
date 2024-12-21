@@ -1,0 +1,168 @@
+*{
+    box-sizing: border-box;
+    padding: 0; 
+    margin: 0;
+
+}
+header{
+    display:flex;
+    justify-content: space-between;
+    height:100px;
+    align-items: center;
+     background-color: #990011;
+     box-shadow: 10px 5px 5px black;
+     border-start-start-radius: 40%;
+     border-end-end-radius: 40%;
+     
+
+}
+body{
+
+}
+.logo{
+    color: black;
+    font-size: 50px;
+    text-shadow: 5px 3px 3px yellow;
+}
+.nav-links{
+    list-style-type: none;
+}
+    
+.nav-links li{
+    display: inline-block;
+    
+}
+.nav-links li a{
+    text-decoration: none;
+    padding :50px  ;
+    color:azure;
+    font-size: 30px;
+}
+.nav-links li a:hover{
+color:  #F7C5CC;
+
+}
+.button-login  {
+    cursor: pointer;
+    background-color: #F7C5CC;
+    border-radius: 20px;
+    padding:10px 10px;
+    font-size: 20px;
+    font-family: sans-serif;
+    list-style-type: none;
+    
+  
+}
+.button-login:hover{
+    color: black;
+    background-color:white;
+
+    
+}
+
+body{
+    background-color:#F7C5CC;
+    font-family: "Marko One", serif;
+  font-weight: 100;
+  font-style: normal;
+}
+.welcome h1{
+    color:#990011;
+    text-align: center;
+    font-size: 100px;
+    margin: 200px 80px;
+    text-shadow:5px 3px 3px yellow ;
+}
+.description{
+    background-color: #990011;
+    padding: 100px;  
+    display: flex;
+    align-items: center;
+    border-bottom-right-radius: 50%;
+    border-top-left-radius: 50%;
+    
+}
+.text{
+    text-align: left; 
+    width:50%;
+    color:#F7C5CC;
+    
+}
+.description h2{
+    font-size: 50px;
+}
+.description h3{
+    font-size:25px ;
+    padding-top:20px;
+}
+.book-image{
+    width:50%;
+    height:400px;
+    object-fit: cover;
+    border-radius: 10px;
+
+}
+.choice{
+    background-color: #F7C5CC;
+    align-items: center;
+    padding: 200px 0px;
+
+}
+.image-choice{
+    display: flex;
+    position:relative;
+}
+.image-container{
+    margin: 0px 100px;
+}
+.image-container img {
+    height:200px;
+    border-radius: 30%;
+    width: 200px;
+}
+.image-container p{
+    font-size: 30px;
+    color: #990011;
+    padding-left: 20px;
+}
+.choice h4{
+   align-items: center;
+   color: #990011;
+   font-size: 50px; 
+   padding: 50px 200px;
+   
+}
+.choice a  {
+padding-left: 500px;
+
+}
+.choice a button{
+    background-color: #990011;
+color: white;
+padding: 20px 50px;
+}
+#about{
+    background-color: #990011;
+    color: #F7C5CC;
+    display: flex;
+    margin:20px;
+    border-radius: 30px;
+}
+.about-us{
+    width: 25%;
+    padding: 50px;
+
+}
+.about-us h3{
+    margin: 10px;
+}
+
+#contact{
+    text-align: center;
+    padding: 50px;
+    font-size: 30px;
+}
+#contact a{
+    padding-left: 20px;
+    text-decoration: none;
+}
